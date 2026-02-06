@@ -1,0 +1,97 @@
+/*For overall file */
+* {
+  margin: 0;
+  font-family: serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(B.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/*For Intro.html*/
+.box {
+    width: 90%;
+    max-width: 400px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.box h1 {
+  margin: 6;
+  font-size: 24px;
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Cl {
+  background-color: pink;
+  height: 30px;
+  border-radius: 6px;
+  box-shadow: 0 10px 40px ;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: black;
+  font-weight: 600;
+}
+
+/*for letters.html */
+
+.box2 h1{
+  margin: 6;
+  font-size: 24px;
+  text-align: center;
+}
+
+.box2 {
+  width: 90%;
+  max-width: 400px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  padding: 20px;
+  width: 400px;
+  height: 270px;
+  border-radius: 12px;
+}
+
+.LS p{
+  text-align: center;
+  padding: 37px;
+  font-size: 20px;
+}
+
+.buttons2 {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.Cl2 {
+  background-color: pink;
+  height: 30px;
+  border-radius: 6px;
+  box-shadow: 0 10px 40px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: black;
+  font-weight: 600;
+}
